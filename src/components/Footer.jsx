@@ -4,10 +4,10 @@ import { socials } from '../constants';
 
 const Footer = () => {
   return (
-    <Section crosses className='!px-0 !py-10'>
+    <Section crosses className='!px-0 !py-10 select-none'>
       <div className='container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col'>
         <p className='caption text-n-4 lg:block'>
-          Done by Alex Roma © {new Date().getFullYear()}
+          Done by Alex Roma &#8858; {new Date().getFullYear()}
         </p>
         <ul className='flex gap-5 flex-wrap'>
           {socials.map(item => (
